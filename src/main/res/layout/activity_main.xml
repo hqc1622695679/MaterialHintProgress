@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World, MyActivity"
+        />
+    <com.example.materialhintprogress.lib.StateCircleProgress
+        android:id="@+id/state_progress"
+        android:layout_width="180dp"
+        android:layout_height="180dp"/>
+    <Button android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始"
+        android:onClick="onclick"
+        />
+
+    <Button android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停止"
+        android:onClick="onclick"
+        />
+    <Button android:id="@+id/showok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="成功"
+        android:onClick="onclick"
+        />
+    <Button android:id="@+id/showerror"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="失败"
+        android:onClick="onclick"
+        />
+
+</LinearLayout>
+
